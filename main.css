@@ -1,0 +1,193 @@
+/***********************************************************************
+                          document structure
+*************************************************************************/
+
+html {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+  /* set background image per page */
+.index-bg {
+  background: url(img/hOM03.jpg) no-repeat center center fixed;
+  background-size: 1000px;
+}
+
+.experience-bg {
+  background: url(img/hOM04.jpg) no-repeat center center fixed;
+  background-size: 1000px;
+}
+
+.work-bg {
+  background: url(img/hOM05.jpg) no-repeat center center fixed;
+  background-size: 1000px;
+}
+
+.contact-bg {
+  background: url(img/hOM06.jpg) no-repeat center center fixed;
+  background-size: 1000px;
+}
+
+body {
+
+}
+
+header {
+/*  background-color: black; */
+}
+
+section {
+
+}
+
+footer {
+
+}
+
+/***********************************************************************
+                          body elements
+************************************************************************/
+
+/* -------------------------- site header --------------------------- */
+
+header h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 8em;
+  font-variant-caps: unicase;
+  color: white;
+  background-color: black;
+  width: 70%;
+  height: 304px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: left;
+}
+
+/* ----------------------- site navigation -------------------------- */
+nav {
+  background-color: black;
+  width: 30%;
+  height: 304px;
+  float: right;
+}
+
+nav ul li {
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+  margin-left: -300px;
+  padding: 0;
+}
+
+/* unvisted link */
+nav a:link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* visited link */
+nav a:visited {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* mouse over link */
+nav a:hover {
+  text-decoration: none;
+  color: #3C4039;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* selected link */
+nav a:active {
+  text-decoration: none;
+  color: #D9E5CD;
+  font-family: 'Rubik', sans-serif;
+}
+
+.navFont {
+  font-size: 4em;
+}
+/* -------------------------------------------------------------------- */
+
+/* headings */
+h1 {
+
+}
+
+/* links */
+a {
+
+}
+
+p {
+  font-family: 'Krona One', sans-serif;
+  font-size: 3em;
+}
+
+/* ----------------------- formatting classes ------------------------ */
+
+.right {
+    float: right;
+    width: 300px;
+    padding: 10px;
+}
+
+.left {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+/* ---------------------- responsive image gallery -------------------- */
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
